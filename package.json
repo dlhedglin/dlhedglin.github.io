@@ -19,7 +19,9 @@
   "dependencies": {
     "@nehalist/gatsby-theme-nehalem": "^1.0.3",
     "gatsby": "^2.13.55",
+    "particles.js": "^2.0.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-particles-js": "^3.4.1"
   }
 }

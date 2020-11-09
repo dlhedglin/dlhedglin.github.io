@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `nehalem-starter`,
+    title: `Devan L. Hedglin`,
     siteUrl: `https://nehalem.netlify.com`,
-    description: `A Gatsby starter for nehalem`,
-    topics: [],
+    description: `~/%TOPICS%`,
+    topics: [`home`, `post`],
     menu: [
       {
         name: 'Home',
@@ -14,25 +14,17 @@ module.exports = {
         path: '/page'
       },
     ],
-    footerMenu: [
-      {
-        name: 'Example',
-        path: '/page'
-      },
-    ],
     search: true,
     author: {
-      name: `nehalem`,
-      description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+      name: `Devan`,
+      description: `I'm <strong>Devan</strong>`,
       social: {
         facebook: ``,
-        twitter: `https://twitter.com/nehalist`,
-        linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
-        instagram: ``,
+        twitter: ``,
+        linkedin: `https://www.linkedin.com/in/devan-hedglin-5b9b7419a/`,
+        instagram: `https://www.instagram.com/devan.l.h/`,
         youtube: ``,
-        github: `https://github.com/nehalist`,
+        github: `https://github.com/dlhedglin`,
         twitch: ``
       }
     }
@@ -46,9 +38,9 @@ module.exports = {
           short_name: `nehalem`,
           start_url: `/`,
           background_color: `#a4cbb8`,
-          theme_color: `#a4cbb8`,
+          theme_color: `#8f41e1`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/logo.png`
+          icon: `content/assets/images/logo.png`
         }
       }
     }
